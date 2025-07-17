@@ -5,8 +5,8 @@ To classify and mask Aadhaar numbers in new text using a pre-trained model:
 
 Ensure the pre-trained model (distilbert_aadhaar_model) and label_encoder_classes.npy are in the project directory.
 Keep the training section commented out:# Training phase
-# dataset_path = "core_context.csv"
-# train_model(dataset_path, epochs=7)
+#dataset_path = "core_context.csv"
+#train_model(dataset_path, epochs=7)
 
 
 Modify the sample_texts list in the script to include your text:sample_texts = [
